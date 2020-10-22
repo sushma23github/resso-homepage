@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Prompt&display=swap');
+*{
+    
+    margin:0;
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/149/547/831/violet-gradient-abstract-wallpaper-preview.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+}
+header{
+    align-items: center;
+    margin-top: 0;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    padding:10px;
+}
+.navbar{
+    border-radius: 20px;
+    border: none;
+}
+.navbar img{
+    width: 50px;
+    height:auto;
+}
+
+.sign{
+    padding:5px;
+    border-radius: 15px;
+}
+.input{
+    width:500px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 30px;
+    border: none;
+    padding: 6px;
+}
+
+  
+.input > i{
+    font-size: 18px;
+    color: whitesmoke;
+    padding-left: 4px;
+    padding-left: 4px;
+    top:5px;
+}
+.input > input{
+    background-color: transparent;
+    height:20px;
+    color:white;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.playlists{
+    padding-left:15px;
+    display: flex;  
+}
+.playlists > img{
+  
+    box-shadow: 2px 2px 2px;
+    border-radius: 13px;
+    margin:5px;
+}
+.playlists img:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease
+}
+
+ .charts h3{
+    font-weight: bold;
+}
+.names{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+} 
+.footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    padding-left:15px ;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 9px;
+}
+.footer > i{
+    font-size: 18px;
+    color: white;
+  
+}.footer h3{
+    font-size: 18px;
+    color: white;
+}
